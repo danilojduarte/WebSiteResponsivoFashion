@@ -1,3 +1,5 @@
+/* ============== GERAL ============== */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,4 +18,37 @@
 
     --color-primary-color: #E7E6E6;
     --color-second-color: #E6C744;
+    --color-background: #F4F6F5;
+
+    font-size: 62.5%;
+    --nav-height: 7.2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+    background: var(--color-white);
+}
+body {
+    font-size: 1.6rem;
+    text-align: center;
+
+    overflow: overlay;
+}
+
+/* ============== CLASSES GERAIS ============== */
+.wrapper {
+    width: min(50rem, 100%);
+
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+img {
+    max-width: 100%;
+    border-radius: 8px;
 }
