@@ -13,14 +13,21 @@
 }
 
 :root {
-    --color-white: #FFF;
-    --color-black: #000;
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
 
-    --color-primary-color: #E7E6E6;
-    --color-second-color: #E6C744;
-    --color-background: #F4F6F5;
+    --color-primary-color: hsl(0, 2%, 90%);
+    --color-second-color: hsl(49, 76%, 58%);
+    --color-background: hsl(150, 10%, 96%);
+
+    --color-paragraph: hsl(0, 2%, 10%);
+    --color-paragraph-02: hsl(0, 0%, 49%);
+    --color-paragraph-03: hsl(0, 0%, 56%);
+    
+    --color-texto-conteudo: hsl(0, 1%, 14%);
 
     font-size: 62.5%;
+
     --nav-height: 7.2rem;
 }
 
@@ -40,6 +47,12 @@ body {
 
     overflow: overlay;
 }
+header {
+    margin-top: 4.1rem;
+
+    width: 37.5rem;
+    margin: auto;
+}
 
 /* ============== CLASSES GERAIS ============== */
 .wrapper {
@@ -48,7 +61,44 @@ body {
     margin-inline: auto;
     padding-inline: 2.4rem;
 }
-img {
+/* img {
     max-width: 100%;
     border-radius: 8px;
+} */
+
+h1 {
+    font-size: 3.4rem;
+    line-height: 130%;
+    margin-bottom: 2.4rem;
 }
+
+p {
+    font-size:1.8rem;
+    line-height: 150%;
+    color: var(--color-paragraph);
+
+    margin-bottom: 3.2rem;
+}
+
+button {
+    height: 4.2rem;
+    width: 20.3rem;
+    margin-bottom: 6rem;
+    
+    border-radius: 10px;
+    background-color: var(--color-black);
+
+    color: var(--color-white);
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* ============== INICIO HOME ============== */
