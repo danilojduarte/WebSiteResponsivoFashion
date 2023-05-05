@@ -70,13 +70,17 @@ header {
     border-radius: 8px;
 } */
 
-h1 {
+
+
+/* ==============HEADER ============== */
+
+header h1 {
     font-size: 3.4rem;
     line-height: 130%;
     margin-bottom: 2.4rem;
 }
 
-p {
+header p {
     font-size: 1.8rem;
     line-height: 150%;
     color: var(--color-paragraph);
@@ -84,7 +88,7 @@ p {
     margin-bottom: 3.2rem;
 }
 
-button {
+header button {
     height: 4.2rem;
     width: 20.3rem;
     margin-bottom: 6rem;
@@ -102,6 +106,16 @@ button {
 
     margin-right: auto;
     margin-left: auto;
+}
+
+header img {
+    width: 42.2rem;
+    display: block;
+    margin-inline: auto;
+
+
+    /* posicionamento da imagem */
+    object-position: 0 2rem;
 }
 
 /* ============== INICIO DO HOME ============== */
@@ -144,15 +158,14 @@ button {
     height: auto;
 }
 
-header img {
-    width: 42.2rem;
-    display: block;
-    margin-inline: auto;
 
-
-    /* posicionamento da imagem */
-    object-position: 0 2rem;
+/* ============== INICIO DO NAVEGACAO ============== */
+nav {
+    display: flex;
+    align-items: center;
 }
+
+
 
 
 

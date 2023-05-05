@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
 
@@ -13,35 +13,22 @@
 }
 
 :root {
-    --color-dark-green: #034350;
-    --color-green: #2f9364;
-    --color-orange: #ff7c37;
-    --color-yellow: #d4f70a;
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
 
-    --color-bgrd: #1a2941ca;
+    --color-primary-color: #e6e5e5;
+    --color-second-color: #e5c743;
+    --color-background: #f4f6f5;
 
-    --color-p: #a1a1a1;
-    --color-p-2: #868585;
-    --color-white: #fff;
-    --color-black: #000000;
+    --color-paragraph: hsl(0, 2%, 10%);
+    --color-paragraph-02: #7d7d7d;
+    --color-paragraph-03: #8f8f8f;
+
+    --color-texto-conteudo: hsl(0, 1%, 14%);
 
     font-size: 62.5%;
 
     --nav-height: 7.2rem;
-
-    /* Others colors */
-
-    /* hue antes -170 */
-    --hue: 170;
-
-    --color-brand-green-hover: hsl(var(--hue), 100%, 14%);
-    --color-primary-colors-brand-green: hsl(var(--hue), 100%, 26%);
-    --color-primary-colors-brand-green-light: hsl(calc(--hue) -22, 23%, 89%);
-    --color-primary-colors-brand-green-light-02: hsla(180, 5%, 88%, 0.936);
-    --color-primary-colors-brand-beige: hsl(41, 85%, 82%);
-    --color-secondary-colors-gray-headline: hsl(210, 11%, 15%);
-    --color-secondary-colors-gray-paragraph: hsl(210, 9%, 31%);
-    --color-secondary-colors-white: hsl(0, 0%, 100%);
 }
 
 html {
