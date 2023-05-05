@@ -1,11 +1,63 @@
-<svg width="151" height="53" viewBox="0 0 151 53" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g style="mix-blend-mode:multiply">
-<rect x="0.259766" y="0.00317383" width="150" height="52.6718" fill="url(#pattern0)"/>
-</g>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_2_392" transform="matrix(0.00444444 0 0 0.012657 0 -0.913044)"/>
-</pattern>
-<image id="image0_2_392" width="225" height="225" xlink:href="data:image/png;base64,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"/>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700"
+   height="700"
+   viewBox="0 0 700 700"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="nike-logo.svg"
+   style="fill:none"
+   inkscape:version="0.92.0 r15299"
+   inkscape:export-filename="C:\Users\suitedoalex\sites\nike-logo-0.png"
+   inkscape:export-xdpi="561.73712"
+   inkscape:export-ydpi="561.73712">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="0.58450359"
+     inkscape:cx="470.57761"
+     inkscape:cy="281.5202"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 382.44821,318.75801 -32.50664,8.63642 -90.19564,23.89129 c -31.85313,7.97438 -59.71608,18.59607 -86.56533,9.29761 -36.49672,-15.94875 -35.8427,-57.44381 -8.63368,-101.58593 -48.10636,40.17132 -134.671687,168.62714 -17.5943,181.5984 14.91269,1.98527 41.46759,-3.30936 70.31167,-15.58616 l 132.67728,-55.09458 261.6903,-108.27043 z"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:8.53147793"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\nike-logo-4.png"
+     inkscape:export-xdpi="73.385544"
+     inkscape:export-ydpi="73.385544" />
 </svg>
