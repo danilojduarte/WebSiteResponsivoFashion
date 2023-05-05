@@ -100,5 +100,14 @@ button {
     margin-left: auto;
 }
 
+.home-cards {
+    
+    width: 32.7rem;
+    height: 47rem;
+
+    margin-inline: auto;
+    background-color: var(--color-second-color);
+    
+}
 
 /* ============== INICIO HOME ============== */
