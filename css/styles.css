@@ -244,7 +244,7 @@ body.menu-expanded .menu {
     position: fixed;
     top: 0;
     left: 0;
-    background: var(--color-primary-colors-brand-green);
+    background: var(--third-color);
 
     width: 100vw;
     height: 100vh;
@@ -268,18 +268,18 @@ body.menu-expanded .menu {
 }
 
 .menu ul li a {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .menu .button {
-    background-color: var(--color-white);
-    border-radius: 4rem;
+    background-color: var(--color-black);
+    border-radius: 1rem;
     border-width: 700;
     font-size: 1.8rem;
     line-height: 2.3rem;
     text-transform: uppercase;
 
-    color: var(--color-primary-colors-brand-green);
+    color: var(--color-white);
 
     display: inline-block;
     padding: 1.0rem 3.2rem;
@@ -287,11 +287,13 @@ body.menu-expanded .menu {
 
     margin-top: 4.8rem;
     margin-bottom: 8rem;
+
+    transition: all .3s ease-in-out;
 }
 
 .menu .button:hover {
-    background-color: var(--color-primary-colors-brand-green);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-black);
 
     filter: brightness(1.3);
 }
