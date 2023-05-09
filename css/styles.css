@@ -16,11 +16,14 @@
     --color-white: hsl(0, 0%, 100%);
     --color-black: hsl(0, 0%, 0%);
 
-    --color-primary-color: #e6e5e5;
-    --color-second-color: #e5c743;
-    --color-background: #f4f6f5;
+    --primary-color: #e6e5e5;
+    --second-color: #e5c743;
+    --third-color: #EBD96B;
 
-    --color-paragraph: hsl(0, 2%, 10%);
+    --color-background: #e3e3e3;
+    
+
+    --color-paragraph: #191818;
     --color-paragraph-02: #7d7d7d;
     --color-paragraph-03: #8f8f8f;
 
@@ -324,7 +327,7 @@ body.menu-expanded button.close-menu i {
 #home::before {
     content: '';
     width: 100%;
-    height: calc(60% + var(--nav-height));
+    height: calc(72% + var(--nav-height));
     background-color:var(--color-background);
     
     display: block;
@@ -335,24 +338,31 @@ body.menu-expanded button.close-menu i {
     z-index: -1;
 }
 
-#home .button {
-    margin-inline: auto;
-}
-
 #home h1 span {
-    color: var(--color-orange);
+    color: var(--third-color);
 }
 
 #home p {
     font-size: 2.8rem;
     line-height: 150%;
     font-weight: 400;
-    color: var(--color-secondary-colors-gray-paragraph);
+    color: var(--color-paragraph);
     margin-bottom: 3.2rem;
 }
 
+#home .button {
+    margin-inline: auto;
+}
+
+#home .home-img {
+    width: 126.4rem;
+    display: block;
+    margin-inline: auto;
+    object-position: 0 0.6rem;
+}
+
 .home-card img {
-    width: 6.0rem;
+    width: 8.0rem;
     height: auto;
     margin-bottom: .4rem;
 }
@@ -361,13 +371,6 @@ body.menu-expanded button.close-menu i {
     font-size: 2.8rem;
     color: var(--color-primary-colors-brand-green);
     line-height: 130%;
-}
-
-#home .home-img {
-    width: 26.4rem;
-    display: block;
-    margin-inline: auto;
-    object-position: 0 0.6rem;
 }
 
 .home-cards {
