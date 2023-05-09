@@ -107,10 +107,11 @@ section .content p {
 }
 
 .button {
-    background-color: var(--color-primary-colors-brand-green);
+    background-color: 
+    var(--color-black);
 
     border: none;
-    border-radius: 2rem;
+    border-radius: 1rem;
 
     margin-bottom: 6rem;
 
@@ -323,8 +324,8 @@ body.menu-expanded button.close-menu i {
 #home::before {
     content: '';
     width: 100%;
-    height: calc(76% + var(--nav-height));
-    background-color:var(--color-primary-colors-brand-green-light-02);
+    height: calc(60% + var(--nav-height));
+    background-color:var(--color-background);
     
     display: block;
 
@@ -336,10 +337,6 @@ body.menu-expanded button.close-menu i {
 
 #home .button {
     margin-inline: auto;
-}
-
-#home .button i {
-    font-size: 2rem;
 }
 
 #home h1 span {
