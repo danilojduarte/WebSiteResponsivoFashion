@@ -309,12 +309,12 @@ body.menu-expanded .logo,
 button.close-menu i {
     position: relative;
     z-index: 100;
-    color: var(--color-white);
+    color: var(--color-black);
     cursor: pointer;
 }
 
 body.menu-expanded button.close-menu i {
-    color: var(--color-white);
+    color: var(--color-black);
     font-size: 2.8rem;
     cursor: pointer;
 }
