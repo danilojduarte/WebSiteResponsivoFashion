@@ -165,7 +165,7 @@ nav i {
 }
 
 nav.scroll {
-    background: var(--color-primary-colors-brand-green);
+    background: var(--color-white);
 }
 
 nav.scroll .logo {
@@ -193,7 +193,7 @@ nav ul li i {
 }
 
 nav.scroll i {
-    color: var(--color-white);
+    color: var(--color-black);
     font-size: 2.8rem;
     cursor: pointer;
 }
