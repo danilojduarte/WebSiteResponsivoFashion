@@ -323,7 +323,6 @@ body.menu-expanded button.close-menu i {
 #home {
     padding-block: 0;
     padding-top: calc(4.1rem + var(--nav-height));
-
 }
 
 #home::before {
@@ -363,20 +362,9 @@ body.menu-expanded button.close-menu i {
     object-position: 0 0.6rem;
 }
 
-.home-card img {
-    width: 8.0rem;
-    height: auto;
-    margin-bottom: .4rem;
-}
-
-.home-card h3 {
-    font-size: 2.8rem;
-    color: var(--color-primary-colors-brand-green);
-    line-height: 130%;
-}
-
 .home-cards {
-    width: 100%;
+    width: 90%;
+    margin-top: 4rem;
     padding-block: 4rem;
     margin-inline: auto;
 
@@ -386,10 +374,26 @@ body.menu-expanded button.close-menu i {
     justify-content: center;
     gap: 6rem;
 
-    background-color: var(--color-primary-colors-brand-beige);
+    background-color: var(--third-color);
     border: 1px solid var(--color-primary-colors-brand-green-light);
     border-radius: 1.2rem;
 }
+
+.home-card img {
+    width: 10rem;
+    height: auto;
+    margin-bottom: .4rem;
+}
+
+/*
+    Não Faz parte do Card
+    .home-card h3 {
+    font-size: 2.8rem;
+    color: var(--color-primary-colors-brand-green);
+    line-height: 130%;
+} */
+
+
 
 
 /* ============== INICIO SERVICES ============== */
