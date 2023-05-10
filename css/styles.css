@@ -417,8 +417,12 @@ body.menu-expanded button.close-menu i {
 
     background-color: var(--color-primary-colors-brand-green-light-02);
 
-    border: 1px solid var(--color-primary-colors-brand-green-light);
+    border: 1px solid var(--primary-color);
     border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 #services .card:hover {
@@ -426,14 +430,25 @@ body.menu-expanded button.close-menu i {
 }
 
 #services .card i {
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     background-color: transparent;
     color: var(--color-primary-colors-brand-green);
+    cursor: pointer;
 
+    transition: all .2s ease-in-out ;
+}
+
+#services .card i:hover {
+    color: var(--third-color);
 }
 
 #services .card h4 {
     margin-block: 1.6rem;
+    font-size: 2.4rem;
+}
+
+#services .card p {
+    font-size: 2rem;
 }
 
 
