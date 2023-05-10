@@ -394,11 +394,15 @@ body.menu-expanded button.close-menu i {
 } */
 
 
-
+/* AJUSTAR COLOR DO BUTTON SING UP DURANTE SCROLL */
 
 /* ============== INICIO SERVICES ============== */
 #services h2 {
     margin-bottom: 6rem;
+    
+}
+#services h2 span {
+   color: var(--second-color);
 }
 
 #services .cards {
