@@ -21,13 +21,13 @@
     --third-color: #EBD96B;
 
     --color-background: #e3e3e3;
-    
 
-    --color-paragraph: #191818;
+
+    --color-paragraph: #231300;
     --color-paragraph-02: #7d7d7d;
     --color-paragraph-03: #8f8f8f;
 
-    --color-texto-conteudo: hsl(0, 1%, 14%);
+    --color-texto-conteudo: #242323;
 
     font-size: 62.5%;
 
@@ -110,8 +110,8 @@ section .content p {
 }
 
 .button {
-    background-color: 
-    var(--color-black);
+    background-color:
+        var(--color-black);
 
     border: none;
     border-radius: 1rem;
@@ -329,8 +329,8 @@ body.menu-expanded button.close-menu i {
     content: '';
     width: 100%;
     height: calc(72% + var(--nav-height));
-    background-color:var(--color-background);
-    
+    background-color: var(--color-background);
+
     display: block;
 
     position: absolute;
@@ -394,15 +394,14 @@ body.menu-expanded button.close-menu i {
 } */
 
 
-/* AJUSTAR COLOR DO BUTTON SING UP DURANTE SCROLL */
-
 /* ============== INICIO SERVICES ============== */
 #services h2 {
     margin-bottom: 6rem;
-    
+
 }
+
 #services h2 span {
-   color: var(--second-color);
+    color: var(--second-color);
 }
 
 #services .cards {
@@ -435,7 +434,7 @@ body.menu-expanded button.close-menu i {
     color: var(--color-primary-colors-brand-green);
     cursor: pointer;
 
-    transition: all .2s ease-in-out ;
+    transition: all .2s ease-in-out;
 }
 
 #services .card i:hover {
@@ -450,6 +449,56 @@ body.menu-expanded button.close-menu i {
 #services .card p {
     font-size: 2rem;
 }
+
+/* ============== INICIO SALE ============== */
+
+
+/* 
+Utilizar a mesma noção de espaço do home ara os lados e tornando as bordas com radius 
+
+AJUSTAR COLOR DO BUTTON SING UP ANTES DO SCROLL
+
+*/
+#sale {
+    text-align: center;
+    background-color: var(--second-color);
+
+}
+
+#sale header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+#sale header span {
+    color: var(--color-white);
+}
+
+#sale header p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 52px;
+
+    letter-spacing: -0.02em;
+
+    color: var(--color-paragraph);
+}
+
+#sale header .button:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+
+
+
+/* ============== FIM SALE ============== */
+
 
 
 /* ============== INICIO ABOUT ============== */
@@ -860,11 +909,12 @@ footer .social-links {
         align-self: center;
     }
 
-        /* ====== FOOTER ====== */
+    /* ====== FOOTER ====== */
 
     footer {
-        padding-block: 8rem ;
+        padding-block: 8rem;
     }
+
     footer .wrapper {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'A B';
