@@ -462,7 +462,7 @@ AJUSTAR COLOR DO BUTTON SING UP ANTES DO SCROLL
 #sale {
     text-align: center;
     background-color: var(--second-color);
-    height: 84vh;
+    height: auto;
     width: 85%;
     margin: auto;
     border-radius: 12px;
@@ -504,27 +504,58 @@ AJUSTAR COLOR DO BUTTON SING UP ANTES DO SCROLL
 
 
 
-/* ============== INICIO ABOUT ============== */
-#about {
-    text-align: left;
+/* ============== INICIO YOUNGS ============== */
+#youngs {
+    text-align: center;
     background-color: var(--color-primary-colors-brand-beige);
 }
 
-#about header h2 {
+#youngs header h2 {
     margin-bottom: 2.4rem;
 }
 
-#about .content p {
-    margin-top: 2.4rem;
-    margin-bottom: 6rem;
-    text-align: justify;
+#youngs header span {
+    color: var(--third-color);
 }
 
-#about .content img {
+#youngs .youngs-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#youngs .youngs-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+#youngs .content h5 {
+    margin-top: .2rem;
+    
+
+    font-size: 2.4rem;
+    text-align: justify;
+    text-align: center;
+}
+
+
+#youngs .content p {
+    margin-top: 1.4rem;
+    margin-bottom: 4rem;
+
+    font-size: 2.4rem;
+    text-align: justify;
+    text-align: center;
+}
+
+#youngs .content img {
     border-radius: 12px;
 }
 
-/* ============== FIM ABOUT ============== */
+/* ============== FIM YOUNGS ============== */
 
 /* ============== INICIO CONTATO ============== */
 #contato {
