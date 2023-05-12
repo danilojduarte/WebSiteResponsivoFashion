@@ -462,7 +462,10 @@ AJUSTAR COLOR DO BUTTON SING UP ANTES DO SCROLL
 #sale {
     text-align: center;
     background-color: var(--second-color);
-
+    height: 84vh;
+    width: 85%;
+    margin: auto;
+    border-radius: 12px;
 }
 
 #sale header {
